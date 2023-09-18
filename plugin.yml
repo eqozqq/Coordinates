@@ -1,0 +1,25 @@
+name: Coordinates
+version: "0.1"
+api: ["1.0.0"]
+main: net.eqozqq.Coordinates.Coordinates
+author: "eqozqq"
+description: "Shows player coordinates"
+commands:
+  xyz:
+    description: Show your coordinates
+  coords:
+    description: Show your coordinates
+  coordinates:
+    description: Show your coordinates
+  xyzplayer:
+    description: Show coordinates of a player
+    usage: /xyz <player>
+    permission: coordinates.admin
+  coordsplayer:
+    description: Show coordinates of a player
+    usage: /coords <player>
+    permission: coordinates.admin
+  coordinatesplayer:
+    description: Show coordinates of a player
+    usage: /coordinates <player>
+    permission: coordinates.admin
